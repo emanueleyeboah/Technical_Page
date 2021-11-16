@@ -1,7 +1,35 @@
 #first-line {
     text-align: center;
+    font-size: 2.5em;
 }
 
 #main-doc {
     padding-top: 1.23em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
+
+.main-section {
+    margin: 1em;
+    padding: 1em;
+    border-style: solid;
+    border-radius: 2em;
+    width: 14em;
+}
+
+#country-one {
+    margin-left: 10em;
+    background-image: linear-gradient(34deg, red, yellow);
+}
+
+#country-two {
+    margin-left: 50em;
+}
+
+#country-three {}
+
+#country-four {
+    margin-left: 50em;
+}
+
+#country-five {}
