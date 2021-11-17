@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="nav.js">
     <title>Document</title>
+
+
+
+
 </head>
 
 
@@ -17,17 +22,30 @@
 
     <main id="main-doc">
 
-        <section class="main-section" id="country-one">
-            <header id="Mauritius">Mauritius</header>
+        <section class="main-section" id="Mauritius">
+            <header id="country-one">Mauritius</header>
 
-            <p>Mauritius, an Indian Ocean island nation, is known for its beaches, lagoons and reefs. <br> The mountainous interior includes Black River Gorges National Park, with rainforests, waterfalls, hiking trails and wildlife like the flying fox. <br>                Capital Port Louis has sites such as the Champs de Mars horse track, Eureka plantation house and 18th-century Sir Seewoosagur Ramgoolam Botanical Gardens.</p>
+            <ul>
+                <li>
+                    <p>Mauritius, an Indian Ocean island nation, is known for its beaches, lagoons and reefs. </p>
+                </li>
+
+                <li> The mountainous interior includes Black River Gorges National Park, with rainforests, waterfalls, hiking trails and wildlife like the flying fox.
+                </li>
+
+                <li>Capital Port Louis has sites such as the Champs de Mars horse track, Eureka plantation, house and 18th-century Sir Seewoosagur Ramgoolam Botanical Gardens</li>
+            </ul>
+
+
+
             <p><strong>It's capital is Port Louis </strong></p>
+
 
         </section>
         <br>
 
-        <section class="main-section" id="country-two">
-            <header id="Seychelles">Seychelles</header>
+        <section class="main-section" id="Seychelles">
+            <header id="country-two">Seychelles</header>
 
             <p>The Seychelles is an archipelago of 115 islands in the Indian Ocean, off East Africa. It's home to numerous beaches, coral reefs and nature reserves, as well as rare animals such as giant Aldabra tortoises. Mahé, a hub for visiting the other
                 islands, is home to capital Victoria. It also has the mountain rainforests of Morne Seychellois National Park and beaches, including Beau Vallon and Anse Takamaka</p>
@@ -36,8 +54,8 @@
         </section>
 
 
-        <section class="main-section" id="country-three">
-            <header id="Algeria">Algeria</header>
+        <section class="main-section" id="Algeria">
+            <header id="country-three">Algeria</header>
 
             <p>Algeria is a North African country with a Mediterranean coastline and a Saharan desert interior. Many empires have left legacies here, such as the ancient Roman ruins in seaside Tipaza. In the capital, Algiers, Ottoman landmarks like circa-1612
                 Ketchaoua Mosque line the hillside Casbah quarter, with its narrow alleys and stairways. The city’s Neo-Byzantine basilica Notre Dame d’Afrique dates to French colonial rule</p>
@@ -45,8 +63,8 @@
         </section>
 
 
-        <section class="main-section" id="country-four">
-            <header id="Tunisia">Tunisia</header>
+        <section class="main-section" id="Tunisia">
+            <header id="country-four">Tunisia</header>
 
             <p>Tunisia, officially the Republic of Tunisia, is the northernmost country in Africa. It is a part of the Maghreb region of North Africa, and is bordered by Algeria to the west and southwest, Libya to the southeast, and the Mediterranean Sea
                 to the north and east; covering 163,610 km², with a population of 11 million</p>
@@ -56,32 +74,56 @@
         </section>
 
 
-        <section class="main-section" id="country-five">
-            <header id="Botswana">Botswana</header>
+        <section class="main-section" id="Botswana">
+            <header id="country-five">Botswana</header>
+            <ul>
+                <li>
+                    <p>Botswana, a landlocked country in Southern Africa, has a landscape defined by the Kalahari Desert and the Okavango Delta, which becomes a lush animal habitat during the seasonal floods</p>
+                </li>
 
-            <p>Botswana, a landlocked country in Southern Africa, has a landscape defined by the Kalahari Desert and the Okavango Delta, which becomes a lush animal habitat during the seasonal floods. The massive Central Kalahari Game Reserve, with its fossilized
-                river valleys and undulating grasslands, is home to numerous animals including giraffes, cheetahs, hyenas and wild dogs.</p>
+                <li>
+                    <p> The massive Central Kalahari Game Reserve, with its fossilized river valleys and undulating grasslands, is home to numerous animals including giraffes, cheetahs, hyenas and wild dogs.</p>
+                </li>
+            </ul>
+
+
 
             <p> <strong> It's capital is Gaborone </strong></p>
         </section>
 
 
 
-
-
-
-
-
-
-
-
-
     </main>
+
+    <nav id="navbar">
+        <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; <header><em>Africa</em></header> </span>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="nav-link" href="#Mauritius">Mauritius</a>
+            <a class="nav-link" href="#Seychelles">Seychelles</a>
+            <a class="nav-link" href="#Algeria">Algeria</a>
+            <a class="nav-link" href="#Tunisia">Tunisia</a>
+            <a class="nav-link" href="#Botswana">Botswana</a>
+
+        </div>
+    </nav>
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
 
 
 </body>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
 
 
 
