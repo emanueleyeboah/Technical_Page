@@ -4,6 +4,7 @@ body {
     background-size: cover;
     color: honeydew;
     font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
 }
 
 #first-line {
@@ -27,20 +28,20 @@ body {
     width: 14em;
 }
 
-#country-one {
+#Mauritius {
     margin-left: 10em;
     background-image: url(../images/Mauritius.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#Mauritius {
+#country-one {
     text-align: center;
     font-size: 1.2em;
     color: white;
 }
 
-#country-two {
+#Seychelles {
     margin-left: 50em;
     position: absolute;
     top: 15px;
@@ -52,12 +53,12 @@ body {
     font-weight: 100;
 }
 
-#Seychelles {
+#country-two {
     text-align: center;
     font-size: 1.2em;
 }
 
-#country-three {
+#Algeria {
     position: absolute;
     right: 20px;
     top: 500px;
@@ -67,12 +68,12 @@ body {
     color: black;
 }
 
-#Algeria {
+#country-three {
     text-align: center;
     font-size: 1.2em;
 }
 
-#country-four {
+#Tunisia {
     position: absolute;
     top: 200px;
     right: 400px;
@@ -81,7 +82,7 @@ body {
     font-weight: 100;
 }
 
-#Tunisia {
+#country-four {
     text-align: center;
     font-size: 1.2em;
     color: white;
@@ -92,7 +93,7 @@ body {
     font-weight: 100;
 }
 
-#country-five {
+#Botswana {
     position: absolute;
     left: 150px;
     bottom: -477px;
@@ -101,8 +102,61 @@ body {
     background-position: center;
 }
 
-#Botswana {
+#country-five {
     text-align: center;
     font-size: 1.2em;
     color: white;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+nav {
+    position: absolute;
+    top: 60px;
+}
+
+span>header {
+    margin-top: 5px;
+    font-family: cursive;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
 }
