@@ -1,162 +1,178 @@
-body {
-    background-image: url(../images/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: honeydew;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 100;
-}
-
-#first-line {
-    text-align: center;
-    font-size: 2.3em;
-}
-
-#main-doc {
-    padding-top: 1.23em;
-    padding-left: 1em;
-    padding-right: 1em;
-    position: relative;
-}
-
-.main-section {
-    margin: 1em;
-    padding: 1em;
-    border-style: solid;
-    border-radius: 1em;
-    border-color: black;
-    width: 14em;
-}
-
-#Mauritius {
-    margin-left: 10em;
-    background-image: url(../images/Mauritius.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#country-one {
-    text-align: center;
-    font-size: 1.2em;
-    color: white;
-}
-
-#Seychelles {
-    margin-left: 50em;
-    position: absolute;
-    top: 15px;
-    right: 5px;
-    background-image: url(../images/Seychelles.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    color: black;
-    font-weight: 100;
-}
-
-#country-two {
-    text-align: center;
-    font-size: 1.2em;
-}
-
-#Algeria {
-    position: absolute;
-    right: 20px;
-    top: 500px;
-    background-image: url(../images/algeria.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    color: black;
-}
-
-#country-three {
-    text-align: center;
-    font-size: 1.2em;
-}
-
-#Tunisia {
-    position: absolute;
-    top: 200px;
-    right: 400px;
-    background-image: url(../images/Tunisia.png);
-    background-repeat: no-repeat;
-    font-weight: 100;
-}
-
-#country-four {
-    text-align: center;
-    font-size: 1.2em;
-    color: white;
-}
-
-#Tunisia-capital {
-    color: black;
-    font-weight: 100;
-}
-
-#Botswana {
-    position: absolute;
-    left: 150px;
-    bottom: -477px;
-    background-image: url(../images/botswana.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#country-five {
-    text-align: center;
-    font-size: 1.2em;
-    color: white;
-}
-
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover {
-    color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-nav {
-    position: absolute;
-    top: 60px;
-}
-
-span>header {
-    margin-top: 5px;
-    font-family: cursive;
-}
-
-@media screen and (max-height: 450px) {
+    body {
+        background-image: url(../images/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: honeydew;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 100;
+    }
+    
+    #first-line {
+        text-align: center;
+        font-size: 2.3em;
+    }
+    
+    #main-doc {
+        padding-top: 1.23em;
+        padding-left: 1em;
+        padding-right: 1em;
+        position: relative;
+    }
+    
+    .main-section {
+        margin: 1em;
+        padding: 1em;
+        border-style: solid;
+        border-radius: 1em;
+        border-color: black;
+        width: 14em;
+    }
+    
+    #Mauritius {
+        margin-left: 10em;
+        background-image: url(../images/Mauritius.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    #country-one {
+        text-align: center;
+        font-size: 1.2em;
+        color: white;
+    }
+    
+    #Seychelles {
+        margin-left: 50em;
+        position: absolute;
+        top: 15px;
+        right: 5px;
+        background-image: url(../images/Seychelles.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        color: black;
+        font-weight: 100;
+    }
+    
+    #country-two {
+        text-align: center;
+        font-size: 1.2em;
+    }
+    
+    #Algeria {
+        position: absolute;
+        right: 20px;
+        top: 500px;
+        background-image: url(../images/algeria.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        color: black;
+    }
+    
+    #country-three {
+        text-align: center;
+        font-size: 1.2em;
+    }
+    
+    #Tunisia {
+        position: absolute;
+        top: 200px;
+        right: 400px;
+        background-image: url(../images/Tunisia.png);
+        background-repeat: no-repeat;
+        font-weight: 100;
+    }
+    
+    #country-four {
+        text-align: center;
+        font-size: 1.2em;
+        color: white;
+    }
+    
+    #Tunisia-capital {
+        color: black;
+        font-weight: 100;
+    }
+    
+    #Botswana {
+        position: absolute;
+        left: 150px;
+        bottom: -477px;
+        background-image: url(../images/botswana.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    #country-five {
+        text-align: center;
+        font-size: 1.2em;
+        color: white;
+    }
+    
     .sidenav {
-        padding-top: 15px;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
     }
+    
     .sidenav a {
-        font-size: 18px;
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
     }
-}
+    
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    
+    nav {
+        position: absolute;
+        top: 60px;
+    }
+    
+    span>header {
+        margin-top: 5px;
+        font-family: cursive;
+    }
+    /* @media screen and (max-height: 570px) {
+        .sidenav {
+            padding-top: 15px;
+        }
+        .sidenav a {
+            font-size: 18px;
+        }
+        #Seychelles {
+            margin-right: 80px;
+            margin-top: 350px;
+            position: absolute;
+            top: 15px;
+            right: 5px;
+        }
+    }
+    */
+    
+    @media screen and (max-height: 450px) {
+        #navbar {
+            padding-top: 15px;
+        }
+        #navbar a {
+            font-size: 18px;
+        }
+    }
