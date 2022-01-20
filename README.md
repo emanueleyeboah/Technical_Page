@@ -6,4 +6,4 @@ Project is in progress
 You can check it on the link:
 https://emanueleyeboah.github.io/Technical_Page/
 
-Responsiveness will be added soon
+NB: Not yet responsive
