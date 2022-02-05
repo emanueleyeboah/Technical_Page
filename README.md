@@ -1,9 +1,8 @@
 # Technical_Page
-A freecode Camp Technical Page
 
-Project is in progress
+This is a complete  graded technical page project given by Freecode camp under the responsive certificate program.
+
+
 
 You can check it on the link:
 https://emanueleyeboah.github.io/Technical_Page/
-
-NB: Not yet responsive
